@@ -4,15 +4,12 @@
 }
 
 body {
-
-}
-
-body {
   font-family: 'VCROSD';
   font-weight: lighter;
   text-align: center;
   color: white;
   background-image: url('img/ultrakill loading to be gif.gif');
+  background-position:top;
 }
 
 h2 {
