@@ -1,8 +1,43 @@
+@font-face {
+  font-family: 'VCROSD';
+  src: url('VCROSD.ttf');
+}
+
 html {
-  background-color: black;
+  background-color: rgb(46, 6, 6);
 }
 
 body {
+  font-family: 'VCROSD';
+  font-weight: lighter;
   text-align: center;
   color: white;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+button {
+  width: 700px;
+  font-weight: lighter;
+  font-family: 'VCROSD';
+  font-size: 40px;
+  border-radius: 7px;
+  color: white;
+  padding: 27px;
+  background-color: rgba(0, 0, 0, 0.486);
+  border-color: transparent;
+  margin: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  background-color: rgb(172, 172, 172, 0.486);
+}
+
+button:active {
+  background-color: red;
 }
