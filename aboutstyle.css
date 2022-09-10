@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'VCROSD';
+    src: url('VCROSD.ttf');
+  }
+
+html {
+    text-align: center;
+}
+
+.about-title {
+    font-variant: small-caps;
+}
+
