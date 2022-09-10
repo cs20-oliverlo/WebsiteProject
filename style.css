@@ -24,10 +24,10 @@ button {
   font-size: 40px;
   border-radius: 7px;
   color: white;
-  padding: 27px;
+  padding: 35px;
   background-color: rgba(0, 0, 0, 0.486);
   border-color: transparent;
-  margin: 0px;
+  transition: all 100ms ease;
 }
 
 button:hover {
