@@ -3,9 +3,8 @@
   src: url('VCROSD.ttf');
 }
 
-html {
-  background-image: url('img/ultrakill loading to be gif.gif');
-  background-color: rgb(46, 6, 6);
+body {
+
 }
 
 body {
@@ -13,6 +12,7 @@ body {
   font-weight: lighter;
   text-align: center;
   color: white;
+  background-image: url('img/ultrakill loading to be gif.gif');
 }
 
 h2 {
