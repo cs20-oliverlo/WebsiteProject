@@ -15,10 +15,6 @@
   z-index: -1;
 }
 
-head {
-  margin: 5px;
-}
-
 body {
   font-family: 'VCROSD';
   font-weight: lighter;
@@ -31,7 +27,6 @@ body {
 h2 {
   font-weight: lighter;
   font-size: 30px;
-  margin: 5px;
 }
 
 button {
