@@ -15,6 +15,11 @@
   z-index: -1;
 }
 
+h2 {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
 body {
   font-family: 'VCROSD';
   font-weight: lighter;
@@ -24,21 +29,16 @@ body {
   background-position: top;
 }
 
-h2 {
-  font-weight: lighter;
-  font-size: 30px;
-}
-
 button {
   width: 700px;
   font-weight: lighter;
   font-family: 'VCROSD';
   font-size: 40px;
-  border-radius: 7px;
   color: white;
   padding: 35px;
   background-color: rgba(0, 0, 0, 0.486);
   border-color: transparent;
+  border-radius: 7px;
   transition: all 100ms ease;
 }
 
