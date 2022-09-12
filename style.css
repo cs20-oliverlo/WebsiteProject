@@ -27,6 +27,7 @@ body {
   color: white;
   background-image: url('img/inspectthis.png');
   background-position: top;
+  background-size: 25%;
 }
 
 button {
