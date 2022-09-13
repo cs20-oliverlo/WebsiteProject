@@ -23,3 +23,14 @@ button {
     border-radius: 3px;
     transition: all 100ms ease;
   }
+
+  button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    background-color: rgb(172, 172, 172, 0.486);
+  }
+  
+  button:active {
+    background-color: red;
+  }
+  
