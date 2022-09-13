@@ -3,6 +3,10 @@
   src: url("VCROSD.ttf");
 }
 
+html {
+  text-align: center;
+}
+
 body {
   font-family: "VCROSD";
 }
