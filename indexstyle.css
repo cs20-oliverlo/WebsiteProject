@@ -38,7 +38,7 @@ button {
   background-color: rgba(0, 0, 0, 0.486);
   border-color: transparent;
   border-radius: 7px;
-  transition: all 100ms ease;
+  transition: all 200ms ease;
 }
 
 button:hover {
@@ -49,4 +49,5 @@ button:hover {
 
 button:active {
   background-color: red;
+  transition: 0s;
 }
