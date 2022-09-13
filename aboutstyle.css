@@ -7,6 +7,10 @@ html {
     text-align: center;
 }
 
+body {
+    font-family: 'VCROSD';
+}
+
 .about-title {
     font-variant: small-caps;
 }
