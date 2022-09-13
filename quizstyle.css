@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "VCROSD";
+    src: url("VCROSD.ttf");
+  }
+  
+
+button {
+    width: 100px;
+    font-weight: lighter;
+    font-family: "VCROSD";
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-color: transparent;
+    border-radius: 3px;
+    transition: all 100ms ease;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    background-color: rgb(172, 172, 172, 0.486);
+  }
+  
+  button:active {
+    background-color: red;
+  }
+  
