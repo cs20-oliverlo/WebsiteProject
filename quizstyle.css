@@ -3,6 +3,9 @@
     src: url("VCROSD.ttf");
   }
   
+  body {
+    font-family: 'VCROSD';
+}
 
 button {
     width: 100px;
