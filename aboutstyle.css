@@ -5,10 +5,26 @@
 
 html {
   text-align: center;
+  background-color: black;
 }
 
 body {
   font-family: "VCROSD";
+  color: white;
+  width: 900px;
+  margin: 20px auto;
+}
+
+.menubuttons {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5px;
+  border: 5px white solid;
+}
+
+.aboutbody {
+  margin-bottom: 5px;
+  border: 5px white solid;
 }
 
 .about-title {
