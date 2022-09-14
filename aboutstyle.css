@@ -9,6 +9,8 @@ html {
 
 body {
   font-family: "VCROSD";
+  color: white;
+  background-color: black;
 }
 
 .about-title {
