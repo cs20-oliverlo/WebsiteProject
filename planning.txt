@@ -35,6 +35,9 @@ ABOUT
         QUIZ
         Who was the person to make ULTRAKILL (not New Blood Games)? Hakita
         Who do you play as? V1
+        Name a movement technique/option (not walking)
+        How many variations are there per weapon on AVERAGE?
+        Name a single-letter rank from the Style Meter.
         
 
 
