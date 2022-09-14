@@ -14,6 +14,11 @@ html {
   border: 5px white solid;
 }
 
+.quizbody {
+  margin-bottom: 5px;
+  border: 5px white solid;
+}
+
 body {
   background-color: black;
   color: white;
