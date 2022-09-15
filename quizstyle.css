@@ -26,12 +26,22 @@ html {
   margin-bottom: 200px;
 }
 
+h1 {
+  font-weight: normal;
+}
+
 body {
   color: white;
   width: 900px;
   margin: 20px auto;
   font-family: "VCROSD";
 }
+
+strong {
+  font-weight: normal;
+  color: rgb(255, 165, 0);
+}
+
 
 button {
   width: 100px;
