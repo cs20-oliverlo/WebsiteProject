@@ -12,6 +12,7 @@ Desc for weapons (use wiki)
 
 QUIZ page:
 background for page or bodies (more scenery?)
+checkanswer button should be the QUIT button color (pinkish)
 
 TOPIC
 ULTRAKILL: The Second Best Game (NOT FOR KIDS)
