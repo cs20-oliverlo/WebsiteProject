@@ -74,3 +74,8 @@ button:active {
 #checkbutton {
   border: 5px white solid;
 }
+
+#checkbutton:active {
+  background-color: inherit;
+  transition: 0s;
+}
