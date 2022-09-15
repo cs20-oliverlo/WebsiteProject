@@ -5,6 +5,7 @@
 
 html {
   text-align: center;
+  background-color: black;
 }
 
 .menubuttons {
@@ -12,19 +13,19 @@ html {
   margin-right: 30%;
   margin-bottom: 5px;
   border: 5px white solid;
+  border-radius: 5px;
 }
 
 .quizbody {
   margin-bottom: 5px;
   border: 5px white solid;
+  border-radius: 5px;
 }
 
 body {
-  background-color: black;
   color: white;
-}
-
-body {
+  width: 900px;
+  margin: 20px auto;
   font-family: "VCROSD";
 }
 
