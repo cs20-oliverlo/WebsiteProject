@@ -70,3 +70,7 @@ button:active {
   background-color: red;
   transition: 0s;
 }
+
+#checkbutton {
+  border: 5px white solid;
+}
