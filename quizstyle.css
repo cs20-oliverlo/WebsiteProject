@@ -22,6 +22,10 @@ html {
   border-radius: 5px;
 }
 
+.q {
+  margin-bottom: 200px;
+}
+
 body {
   color: white;
   width: 900px;
