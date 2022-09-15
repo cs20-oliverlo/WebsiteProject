@@ -50,11 +50,66 @@
     <h4 class="about-title">Weapons</h4>
     <p>
         As of the current version (?) there are 5 weapons with an average of <strong>2</strong> variations per weapon.
-        <li>Revolver</li>
-        <li>Shotgun</li>
-        <li>Nailgun</li>
-        <li>Railgun</li>
-        <li>Rocket Launcher</li>
+
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Revolvers')">Revolvers</button>
+    <button class="tablinks" onclick="openCity(event, 'Shotguns')">Shotguns</button>
+    <button class="tablinks" onclick="openCity(event, 'Nailguns')">Nailguns</button>
+    <button class="tablinks" onclick="openCity(event, 'Railcannons')">Railcannons</button>
+    <button class="tablinks" onclick="openCity(event, 'Rocketlaunchers')">Rocket Launchers</button>
+    <button class="tablinks" onclick="openCity(event, 'Arms')">Arms</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Revolvers" class="tabcontent">
+    <h4>Revolvers</h4>
+    <p>London is the capital city of England.</p>
+  </div>
+  
+  <div id="Shotguns" class="tabcontent">
+    <h4>Shotguns</h4>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="Nailguns" class="tabcontent">
+    <h4>Nailguns</h4>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+  <div id="Railcannons" class="tabcontent">
+    <h4>Railcannons</h4>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+  <div id="Rocketlaunchers" class="tabcontent">
+    <h4>Rocket Launchers</h4>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+  <div id="Arms" class="tabcontent">
+    <h4>Arms</h4>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+
+  
         Each weapon has a unique alternate fire allowing for even more combinations of weapons!
     </p>
     <h4 class="about-title">Style Meter</h4>
@@ -110,7 +165,7 @@
             </audio>
     </p>
     <p>
-        Finally, "Versus" starts right as a red robot known as V2 enters a church. This iconic song plays for the fisrt and last time you fight V2.
+        Finally, "Versus" starts . This iconic song plays for the first and last time you fight V2.
     </p>
     <p>
         <audio controls>
