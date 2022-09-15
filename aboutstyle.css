@@ -20,11 +20,13 @@ body {
   margin-right: 30%;
   margin-bottom: 5px;
   border: 5px white solid;
+  border-radius: 5px;
 }
 
 .aboutbody {
   margin-bottom: 5px;
   border: 5px white solid;
+  border-radius: 5px;
 }
 
 .about-title {
