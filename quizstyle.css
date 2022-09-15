@@ -8,6 +8,10 @@ html {
   background-color: black;
 }
 
+h2 {
+  font-weight: normal;
+}
+
 .menubuttons {
   margin-left: 30%;
   margin-right: 30%;
