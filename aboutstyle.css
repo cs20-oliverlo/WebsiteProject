@@ -34,6 +34,11 @@ body {
   font-variant: small-caps;
 }
 
+strong {
+  font-weight: normal;
+  color: rgb(224, 210, 14);
+}
+
 button {
   width: 100px;
   font-weight: lighter;
