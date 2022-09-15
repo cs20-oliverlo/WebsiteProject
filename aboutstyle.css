@@ -23,6 +23,15 @@ body {
   border-radius: 5px;
 }
 
+#movement {
+  width: 60%;
+}
+
+img {
+  border: 5px white solid;
+  border-radius: 5px;
+}
+
 .aboutbody {
   margin-bottom: 5px;
   border: 5px white solid;
@@ -36,8 +45,13 @@ body {
 
 strong {
   font-weight: normal;
-  color: rgb(224, 210, 14);
+  color: rgb(255, 165, 0);
 }
+
+h1 {
+  font-weight: normal;
+}
+
 
 button {
   width: 100px;
