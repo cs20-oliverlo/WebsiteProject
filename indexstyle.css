@@ -3,16 +3,6 @@
   src: url("VCROSD.ttf");
 }
 
-#background-video {
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 h2 {
   font-weight: lighter;
   font-size: 30px;
@@ -49,4 +39,14 @@ button:hover {
 button:active {
   background-color: red;
   transition: 0s;
+}
+
+#background-video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
