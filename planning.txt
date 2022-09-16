@@ -8,10 +8,8 @@ HOME page:
 FAVICON CHANGE
 
 ABOUT page:
-Desc for weapons (use wiki)
 
 QUIZ page:
-background for page or bodies (more scenery?)
 checkanswer button should be the QUIT button color (pinkish)
 
 TOPIC
