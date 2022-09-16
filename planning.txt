@@ -10,6 +10,7 @@ ABOUT page:
 
 QUIZ page:
 make text not blend with background
+stylize inputs
 
 TOPIC
 ULTRAKILL: The Second Best Game (NOT FOR KIDS)
