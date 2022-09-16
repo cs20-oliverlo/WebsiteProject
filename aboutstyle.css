@@ -15,16 +15,44 @@ body {
   margin: 20px auto;
 }
 
+strong {
+  font-weight: normal;
+  color: rgb(255, 165, 0);
+}
+
+button {
+  width: 100px;
+  font-weight: lighter;
+  font-family: "VCROSD";
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.486);
+  border-color: transparent;
+  border-radius: 3px;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  background-color: rgb(172, 172, 172, 0.486);
+}
+
+button:active {
+  background-color: red;
+  transition: 0s;
+}
+h1 {
+  font-weight: normal;
+}
+
 .menubuttons {
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 5px;
   border: 5px white solid;
   border-radius: 5px;
-}
-
-h1 {
-  font-weight: normal;
 }
 
 .about-title {
@@ -36,7 +64,7 @@ h1 {
   border: 5px white solid;
   border-radius: 5px;
   padding: 0 50px;
-  background-image: url(img/mechanicsbackground.png);
+  background-image: url(img/introbackground.png);
   background-size: 100%;
   background-position: center;
 }
@@ -74,34 +102,6 @@ img {
   width: 60%;
 }
 
-strong {
-  font-weight: normal;
-  color: rgb(255, 165, 0);
-}
-
-button {
-  width: 100px;
-  font-weight: lighter;
-  font-family: "VCROSD";
-  font-size: 20px;
-  color: white;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.486);
-  border-color: transparent;
-  border-radius: 3px;
-  transition: all 200ms ease;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: transparent;
-  background-color: rgb(172, 172, 172, 0.486);
-}
-
-button:active {
-  background-color: red;
-  transition: 0s;
-}
 
 .tab {
   overflow: hidden;
