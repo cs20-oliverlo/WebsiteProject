@@ -5,12 +5,11 @@ TO DO LIST!!!!!
 IMPORTANT!!
 
 HOME page:
-FAVICON CHANGE
 
 ABOUT page:
 
 QUIZ page:
-checkanswer button should be the QUIT button color (pinkish)
+make text not blend with background
 
 TOPIC
 ULTRAKILL: The Second Best Game (NOT FOR KIDS)

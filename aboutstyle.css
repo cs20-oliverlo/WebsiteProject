@@ -147,22 +147,22 @@ button:active {
   width: 20%;
 }
 
-a:link {
+.ostlink:link {
   color: black;
 }
 
-a:visited {
+.ostlink:visited {
   color: rgb(236, 166, 10);
   text-decoration: underline;
 }
 
-a:hover {
+.ostlink:hover {
   color:  white;
   background-color: rgb(236, 166, 10);
   text-decoration: underline;
 }
 
-a:active {
+.ostlink:active {
   color: red;
   background-color: black;
   text-decoration: underline;
