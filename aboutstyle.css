@@ -146,3 +146,24 @@ button:active {
 .weapon {
   width: 20%;
 }
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: rgb(236, 166, 10);
+  text-decoration: underline;
+}
+
+a:hover {
+  color:  white;
+  background-color: rgb(236, 166, 10);
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: black;
+  text-decoration: underline;
+}

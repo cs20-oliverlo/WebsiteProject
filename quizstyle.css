@@ -91,6 +91,7 @@ button:active {
 
 #checkbutton {
   border: 5px white solid;
+  color: rgb(234, 142, 142);
 }
 
 #checkbutton:active {
