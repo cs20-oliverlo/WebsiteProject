@@ -8,8 +8,35 @@ html {
   background-color: black;
 }
 
-h2 {
-  font-weight: normal;
+body {
+  color: white;
+  width: 900px;
+  margin: 20px auto;
+  font-family: "VCROSD";
+}
+
+button {
+  width: 100px;
+  font-weight: lighter;
+  font-family: "VCROSD";
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.486);
+  border-color: transparent;
+  border-radius: 3px;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  background-color: rgb(172, 172, 172, 0.486);
+}
+
+button:active {
+  background-color: red;
+  transition: 0s;
 }
 
 .menubuttons {
@@ -52,41 +79,13 @@ h1 {
   font-weight: normal;
 }
 
-body {
-  color: white;
-  width: 900px;
-  margin: 20px auto;
-  font-family: "VCROSD";
+h2 {
+  font-weight: normal;
 }
 
 strong {
   font-weight: normal;
   color: rgb(255, 165, 0);
-}
-
-
-button {
-  width: 100px;
-  font-weight: lighter;
-  font-family: "VCROSD";
-  font-size: 20px;
-  color: white;
-  padding: 5px;
-  background-color: rgba(0, 0, 0, 0.486);
-  border-color: transparent;
-  border-radius: 3px;
-  transition: all 200ms ease;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: transparent;
-  background-color: rgb(172, 172, 172, 0.486);
-}
-
-button:active {
-  background-color: red;
-  transition: 0s;
 }
 
 #checkbutton {
