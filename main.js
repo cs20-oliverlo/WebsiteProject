@@ -14,3 +14,4 @@ function openWeapon(evt, weaponName) {
   }
 
   // Quizizzito
+  
