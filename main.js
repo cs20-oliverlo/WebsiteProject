@@ -1,3 +1,4 @@
+// Weapon Tabs
 function openWeapon(evt, weaponName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -11,3 +12,5 @@ function openWeapon(evt, weaponName) {
     document.getElementById(weaponName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  // Quizizzito

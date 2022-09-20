@@ -84,8 +84,12 @@ h2 {
   background-position: center;
 }
 
-.q {
+.question {
   margin-bottom: 200px;
+}
+
+input {
+  width: 125px;
 }
 
 #checkbutton {
