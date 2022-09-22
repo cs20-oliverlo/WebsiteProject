@@ -1,17 +1,17 @@
 // Weapon Tabs
-let tabs = document.querySelectorAll(".tabs button");
+let tabs = document.querySelectorAll(".tabs h3");
 let tabContents = document.querySelectorAll(".tab-content div");
 
 tabs.forEach((tab, index) => {
   tab.addEventListener("click", () => {
     tabContents.forEach((content) => {
-      content.classList.remove("tabcontent");
+      content.classList.remove("active");
     });
     tabs.forEach((tab) => {
-      tab.classList.remove("tabcontent");
+      tab.classList.remove("active");
     });
-    tabContents[index].classList.add("tabcontent");
-    tabs[index].classList.add("tabcontent");
+    tabContents[index].classList.add("active");
+    tabs[index].classList.add("active");
   });
 });
 
