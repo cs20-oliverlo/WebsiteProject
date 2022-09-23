@@ -33,6 +33,18 @@ button {
   transition: all 200ms ease;
 }
 
+
+.tab-content div {
+  display: none;
+}
+.tab-content .active {
+  display: block;
+}
+.tabs .active {
+  background-color: #ffffff;
+  color: #4d5bf9;
+}
+
 button:hover {
   cursor: pointer;
   background-color: transparent;
