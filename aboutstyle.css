@@ -131,7 +131,7 @@ img {
   background-color: rgb(172, 172, 172, 0.486);
 }
 
-.tab button.active {
+.tab button.click {
   background-color: red;
 }
 
