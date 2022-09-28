@@ -18,14 +18,12 @@ function newChar(tabValue) {
 
 // Quizizzito
 
-// HTML Variables
-let testScore = +document.getElementById("answers-right");
-
 // Button Event Listener
 document.getElementById("checkButton").addEventListener("click", btnClicked);
 
 function btnClicked() {
   // Input
+  let testScore = 0;
   let answer1 = document.getElementById("ans1-in").value.toLowerCase();
   let answer2 = document.getElementById("ans2-in").value.toLowerCase();
   let answer3 = document.getElementById("ans3-in").value.toLowerCase();
@@ -35,8 +33,31 @@ function btnClicked() {
 
   // If Statement - Test the input
   if (answer1 === "hakita" || answer1 === "pitr") {
-    testScore;
-  } else () {
-
+    testScore++;
+  }
+  
+  // If Statement - Test the input
+  if (answer2 === "v1") {
+    testScore++;
+  }
+  
+  // If Statement - Test the input
+  if (answer3 === "wall jumping" || answer3 === "wall sliding") {
+    testScore++;
+  }
+  
+  // If Statement - Test the input
+  if (answer4 === "hakita" || answer4 === "pitr") {
+    testScore++;
+  }
+  
+  // If Statement - Test the input
+  if (answer5 === "hakita" || answer5 === "pitr") {
+    testScore++;
+  }
+  
+  // If Statement - Test the input
+  if (answer6 === "hakita" || answer6 === "pitr") {
+    testScore++;
   }
 }
