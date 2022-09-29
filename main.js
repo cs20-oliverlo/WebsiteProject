@@ -22,7 +22,6 @@ function newChar(tabValue) {
 document.getElementById("checkButton").addEventListener("click", btnClicked);
 
 function btnClicked() {
-  // Input
   let testScore = 0;
   let answer1 = document.getElementById("ans1-in").value.toLowerCase();
   let answer2 = document.getElementById("ans2-in").value.toLowerCase();
@@ -31,33 +30,31 @@ function btnClicked() {
   let answer5 = document.getElementById("ans5-in").value.toLowerCase();
   let answer6 = document.getElementById("ans6-in").value.toLowerCase();
 
-  // If Statement - Test the input
   if (answer1 === "hakita" || answer1 === "pitr") {
     testScore++;
   }
   
-  // If Statement - Test the input
   if (answer2 === "v1") {
     testScore++;
   }
   
-  // If Statement - Test the input
-  if (answer3 === "wall jumping" || answer3 === "wall sliding") {
+  if (answer3 === "wall jumping" || answer3 === "wall sliding" || answer3 === "dashing" || answer3 === "dash jumping" || answer3 === "sliding" || answer3 === "slide jumping" || answer3 === "ground slam" || answer3 === "skimming" || answer3 === "sliding on water" || answer3 === "rocket surfing" || answer3 === "rocket jumping" || answer3 === "slam storage") {
     testScore++;
   }
   
-  // If Statement - Test the input
-  if (answer4 === "hakita" || answer4 === "pitr") {
+  if (answer4 === "marksman" || answer4 === "core" || answer4 === "pump" || answer4 === "attractor" || answer4 === "overheat" || answer4 === "electric" || answer4 === "screwdriver" || answer4 === "malicious" || answer4 === "freeze frame") {
     testScore++;
   }
   
-  // If Statement - Test the input
-  if (answer5 === "hakita" || answer5 === "pitr") {
+  if (answer5 === "2") {
     testScore++;
   }
   
-  // If Statement - Test the input
-  if (answer6 === "hakita" || answer6 === "pitr") {
+  if (answer6 === "d" || answer6 === "c" || answer6 === "b" || answer6 === "a" || answer6 === "s" || answer6 === "ss" || answer6 === "sss" || answer6 === "ultrakill") {
     testScore++;
   }
+
+if
+
+  document.getElementById("answers-right").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
 }
