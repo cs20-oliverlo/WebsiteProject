@@ -54,7 +54,22 @@ function btnClicked() {
     testScore++;
   }
 
-if
-
   document.getElementById("answers-right").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
 }
+
+
+// if (testScore === 6) {
+//     document.getElementById("rank-img").innerHTML = p
+//   } else if (testScore === 5) {
+//     document.getElementById("rank-img").innerHTML =s
+//   } else if (testScore === 4) {
+//     document.getElementById("rank-img").innerHTML =a
+//   } else if (testScore === 3) {
+//     document.getElementById("rank-img").innerHTML =b
+//   } else if (testScore === 2) {
+//     document.getElementById("rank-img").innerHTML =c
+//   } else if (testScore === 1){
+//     document.getElementById("rank-img").innerHTML =d
+//   } else if (testScore === 0) {
+//     death animation
+//   }
