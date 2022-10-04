@@ -64,6 +64,7 @@ h2 {
   margin-bottom: 5px;
   border: 5px white solid;
   border-radius: 5px;
+  padding: 10px 10px;
 }
 
 .quizbody {
@@ -92,7 +93,7 @@ input {
   width: 125px;
 }
 
-#checkbutton {
+#checkButton {
   border: 5px white solid;
   color: rgb(234, 142, 142);
 }
