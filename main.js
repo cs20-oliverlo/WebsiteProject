@@ -16,8 +16,9 @@ function newChar(tabValue) {
   document.getElementById(tabName).style.display = "block";
 }
 
-// Quizizzito
 
+
+// Quizizzito
 // HTML Variables
 let testScore = +document.getElementById("answers-right");
 
@@ -35,8 +36,8 @@ function btnClicked() {
 
   // If Statement - Test the input
   if (answer1 === "hakita" || answer1 === "pitr") {
-    testScore;
-  } else () {
-
+    testScore = testScore + 1;
+  } else {
+    testScore = testScore + 0;
   }
 }
