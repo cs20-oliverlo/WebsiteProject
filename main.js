@@ -16,7 +16,6 @@ function newWeapon(tabValue) {
   document.getElementById(tabName).style.display = "block";
 }
 
-// Quizizzito
 
 // Button Event Listener
 document.getElementById("checkButton").addEventListener("click", btnClicked);
