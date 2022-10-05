@@ -16,6 +16,7 @@ function newWeapon(tabValue) {
   document.getElementById(tabName).style.display = "block";
 }
 
+// Quizizzito
 
 // Button Event Listener
 document.getElementById("checkButton").addEventListener("click", btnClicked);
@@ -69,6 +70,6 @@ function btnClicked() {
 //     document.getElementById("rank-img").innerHTML =c
 //   } else if (testScore === 1){
 //     document.getElementById("rank-img").innerHTML =d
-//   } else if (testScore === 0) {
+//   } else {
 //     death animation
 //   }
