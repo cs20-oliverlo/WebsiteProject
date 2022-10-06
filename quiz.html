@@ -19,7 +19,7 @@
                 <div class="quizmusic">
                 <p>Here is some <strong>calming</strong> music</p>
                 <p>
-                    <audio controls autoplay>
+                    <audio controls autoplay loop>
                         <source src="sounds/athousandgreetings.mp3" type="audio/mp3">
                     </audio>
                 </p>
@@ -46,7 +46,9 @@
                     6. Name a <strong>rank</strong> from the Style Meter <input id="ans6-in" type="text">
                 </p>
                 <p><button id="checkButton">Check Answers</button></p>
-                <h2>Rank: <span id="rank-img">?</span> | Kills: <span id="answers-right">?</span></h2>
+                <h2>
+                    Kills: <span id="answers-right">?</span> </span>| Rank: <span id="rank" class="rank">?</span> <img id="rank-p" src="img/rankP.png" alt="P Rank"> <img id="rank-s" src="img/rankS.png" alt="S Rank"> <img id="rank-a" src="img/rankA.png" alt="A Rank"> <img id="rank-b" src="img/rankB.png" alt="B Rank"> <img id="rank-c" src="img/rankC.png" alt="C Rank"> <img id="rank-d" src="img/rankD.png" alt="D Rank">
+                </h2>
             </div>
         </body>
 </html>

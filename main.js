@@ -16,10 +16,17 @@ function newWeapon(tabValue) {
   document.getElementById(tabName).style.display = "block";
 }
 
-// Quizizzito
-
 // Button Event Listener
 document.getElementById("checkButton").addEventListener("click", btnClicked);
+
+// Quiz Variable
+let rank = document.getElementById("rank");
+let pRank = document.getElementById("rank-p");
+let sRank = document.getElementById("rank-s");
+let aRank = document.getElementById("rank-a");
+let bRank = document.getElementById("rank-b");
+let cRank = document.getElementById("rank-c");
+let dRank = document.getElementById("rank-d");
 
 function btnClicked() {
   let testScore = 0;
@@ -55,21 +62,56 @@ function btnClicked() {
   }
 
   document.getElementById("answers-right").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
+
+  // if (testScore === 6) {
+  // pRank.style.display = "float";
+  // sRank.style.display = "none";
+  // aRank.style.display = "none";
+  // bRank.style.display = "none";
+  // cRank.style.display = "none";
+  // dRank.style.display = "none";
+  // rank.style.display = "none";
+  // } else if (testScore === 5) {
+  //   pRank.style.display = "none";
+  //   sRank.style.display = "float";
+  //   aRank.style.display = "none";
+  //   bRank.style.display = "none";
+  //   cRank.style.display = "none";
+  //   dRank.style.display = "none";
+  //   rank.style.display = "none";
+  // } else if (testScore === 4) {
+  //   pRank.style.display = "none";
+  //   sRank.style.display = "none";
+  //   aRank.style.display = "float";
+  //   bRank.style.display = "none";
+  //   cRank.style.display = "none";
+  //   dRank.style.display = "none";
+  //   rank.style.display = "none";
+  // } else if (testScore === 3) {
+  //   pRank.style.display = "none";
+  //   sRank.style.display = "none";
+  //   aRank.style.display = "none";
+  //   bRank.style.display = "float";
+  //   cRank.style.display = "none";
+  //   dRank.style.display = "none";
+  //   rank.style.display = "none";
+  // } else if (testScore === 2) {
+  //   pRank.style.display = "none";
+  //   sRank.style.display = "none";
+  //   aRank.style.display = "none";
+  //   bRank.style.display = "none";
+  //   cRank.style.display = "float";
+  //   dRank.style.display = "none";
+  //   rank.style.display = "none";
+  // } else if (testScore === 1){
+  //   pRank.style.display = "none";
+  //   sRank.style.display = "none";
+  //   aRank.style.display = "none";
+  //   bRank.style.display = "none";
+  //   cRank.style.display = "none";
+  //   dRank.style.display = "float";
+  //   rank.style.display = "none";
+  // }
 }
 
 
-// if (testScore === 6) {
-//     document.getElementById("rank-img").innerHTML = p
-//   } else if (testScore === 5) {
-//     document.getElementById("rank-img").innerHTML =s
-//   } else if (testScore === 4) {
-//     document.getElementById("rank-img").innerHTML =a
-//   } else if (testScore === 3) {
-//     document.getElementById("rank-img").innerHTML =b
-//   } else if (testScore === 2) {
-//     document.getElementById("rank-img").innerHTML =c
-//   } else if (testScore === 1){
-//     document.getElementById("rank-img").innerHTML =d
-//   } else {
-//     death animation
-//   }
