@@ -63,6 +63,8 @@ function btnClicked() {
 
   document.getElementById("answers-right").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
 
+// class active changers
+
   if (testScore === 6) {
   pRank.style.display = "inline";
   sRank.style.display = "none";
