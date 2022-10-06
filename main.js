@@ -63,55 +63,49 @@ function btnClicked() {
 
   document.getElementById("answers-right").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
 
-  // if (testScore === 6) {
-  // pRank.style.display = "float";
-  // sRank.style.display = "none";
-  // aRank.style.display = "none";
-  // bRank.style.display = "none";
-  // cRank.style.display = "none";
-  // dRank.style.display = "none";
-  // rank.style.display = "none";
-  // } else if (testScore === 5) {
-  //   pRank.style.display = "none";
-  //   sRank.style.display = "float";
-  //   aRank.style.display = "none";
-  //   bRank.style.display = "none";
-  //   cRank.style.display = "none";
-  //   dRank.style.display = "none";
-  //   rank.style.display = "none";
-  // } else if (testScore === 4) {
-  //   pRank.style.display = "none";
-  //   sRank.style.display = "none";
-  //   aRank.style.display = "float";
-  //   bRank.style.display = "none";
-  //   cRank.style.display = "none";
-  //   dRank.style.display = "none";
-  //   rank.style.display = "none";
-  // } else if (testScore === 3) {
-  //   pRank.style.display = "none";
-  //   sRank.style.display = "none";
-  //   aRank.style.display = "none";
-  //   bRank.style.display = "float";
-  //   cRank.style.display = "none";
-  //   dRank.style.display = "none";
-  //   rank.style.display = "none";
-  // } else if (testScore === 2) {
-  //   pRank.style.display = "none";
-  //   sRank.style.display = "none";
-  //   aRank.style.display = "none";
-  //   bRank.style.display = "none";
-  //   cRank.style.display = "float";
-  //   dRank.style.display = "none";
-  //   rank.style.display = "none";
-  // } else if (testScore === 1){
-  //   pRank.style.display = "none";
-  //   sRank.style.display = "none";
-  //   aRank.style.display = "none";
-  //   bRank.style.display = "none";
-  //   cRank.style.display = "none";
-  //   dRank.style.display = "float";
-  //   rank.style.display = "none";
-  // }
+  if (testScore === 6) {
+  pRank.style.display = "inline";
+  sRank.style.display = "none";
+  aRank.style.display = "none";
+  bRank.style.display = "none";
+  cRank.style.display = "none";
+  dRank.style.display = "none";
+  } else if (testScore === 5) {
+    pRank.style.display = "none";
+    sRank.style.display = "inline";
+    aRank.style.display = "none";
+    bRank.style.display = "none";
+    cRank.style.display = "none";
+    dRank.style.display = "none";
+  } else if (testScore === 4) {
+    pRank.style.display = "none";
+    sRank.style.display = "none";
+    aRank.style.display = "inline";
+    bRank.style.display = "none";
+    cRank.style.display = "none";
+    dRank.style.display = "none";
+  } else if (testScore === 3) {
+    pRank.style.display = "none";
+    sRank.style.display = "none";
+    aRank.style.display = "none";
+    bRank.style.display = "inline";
+    cRank.style.display = "none";
+    dRank.style.display = "none";
+  } else if (testScore === 2) {
+    pRank.classList = "none";
+    sRank.classList = "none";
+    aRank.classList = "none";
+    bRank.classList = "none";
+    cRank.classList = "inline";
+    dRank.classList = "none";
+  } else if (testScore === 1){
+    pRank.classList = "none";
+    sRank.classList = "none";
+    aRank.classList = "none";
+    bRank.classList = "none";
+    cRank.classList = "none";
+    dRank.classList = "active";
+  }
 }
 
 
