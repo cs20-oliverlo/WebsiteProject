@@ -16,7 +16,6 @@ function newWeapon(tabValue) {
   document.getElementById(tabName).style.display = "block";
 }
 
-
 // Button Event Listener
 document.getElementById("checkButton").addEventListener("click", btnClicked);
 
@@ -54,21 +53,25 @@ function btnClicked() {
   }
 
   document.getElementById("answers-right").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
+  
+  document.getElementsByClassName("rank-img").style.display = "none"
+
+  // if (testScore === 6) {
+  //   document.getElementById("rank-img").innerHTML = ""
+  // } else if (testScore === 5) {
+  //   document.getElementById("rank-img").innerHTML = ""
+  // } else if (testScore === 4) {
+  //   document.getElementById("rank-img").innerHTML = ""
+  // } else if (testScore === 3) {
+  //   document.getElementById("rank-img").innerHTML = ""
+  // } else if (testScore === 2) {
+  //   document.getElementById("rank-img").innerHTML = ""
+  // } else if (testScore === 1){
+  //   document.getElementById("rank-img").innerHTML = ""
+  // } else if (testScore === 0) {
+  //   document.getElementById("rank-img").innerHTML = ""
+  // }
+
 }
 
 
-// if (testScore === 6) {
-//     document.getElementById("rank-img").innerHTML = p
-//   } else if (testScore === 5) {
-//     document.getElementById("rank-img").innerHTML =s
-//   } else if (testScore === 4) {
-//     document.getElementById("rank-img").innerHTML =a
-//   } else if (testScore === 3) {
-//     document.getElementById("rank-img").innerHTML =b
-//   } else if (testScore === 2) {
-//     document.getElementById("rank-img").innerHTML =c
-//   } else if (testScore === 1){
-//     document.getElementById("rank-img").innerHTML =d
-//   } else if (testScore === 0) {
-//     death animation
-//   }
