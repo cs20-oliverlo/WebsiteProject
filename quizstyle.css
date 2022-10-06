@@ -89,7 +89,27 @@ h2 {
   margin-bottom: 200px;
 }
 
-.rank-img {
+#rank-p {
+  width: 30px;
+}
+
+#rank-s {
+  width: 30px;
+}
+
+#rank-a {
+  width: 30px;
+}
+
+#rank-b {
+  width: 30px;
+}
+
+#rank-c {
+  width: 30px;
+}
+
+#rank-d {
   width: 30px;
 }
 
