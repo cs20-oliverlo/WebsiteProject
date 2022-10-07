@@ -61,53 +61,66 @@ function btnClicked() {
     testScore++;
   }
 
-  document.getElementById("answers-right").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
+  document.getElementById("answers-right").innerHTML = testScore
+  document.getElementById("answers-percent").innerHTML = Math.trunc(testScore * 100 / 6) + "%"
 
-// class active changers
+// Class Changer for rank
 
   if (testScore === 6) {
-  pRank.style.display = "inline";
-  sRank.style.display = "none";
-  aRank.style.display = "none";
-  bRank.style.display = "none";
-  cRank.style.display = "none";
-  dRank.style.display = "none";
+    pRank.classList = "active";
+    sRank.classList = "none";
+    aRank.classList = "none";
+    bRank.classList = "none";
+    cRank.classList = "none";
+    dRank.classList = "none";
+    rank.classList = "none";
   } else if (testScore === 5) {
-    pRank.style.display = "none";
-    sRank.style.display = "inline";
-    aRank.style.display = "none";
-    bRank.style.display = "none";
-    cRank.style.display = "none";
-    dRank.style.display = "none";
+    pRank.classList = "none";
+    sRank.classList = "active";
+    aRank.classList = "none";
+    bRank.classList = "none";
+    cRank.classList = "none";
+    dRank.classList = "none";
+    rank.classList = "none";
   } else if (testScore === 4) {
-    pRank.style.display = "none";
-    sRank.style.display = "none";
-    aRank.style.display = "inline";
-    bRank.style.display = "none";
-    cRank.style.display = "none";
-    dRank.style.display = "none";
+    pRank.classList = "none";
+    sRank.classList = "none";
+    aRank.classList = "active";
+    bRank.classList = "none";
+    cRank.classList = "none";
+    dRank.classList = "none";
+    rank.classList = "none";
   } else if (testScore === 3) {
-    pRank.style.display = "none";
-    sRank.style.display = "none";
-    aRank.style.display = "none";
-    bRank.style.display = "inline";
-    cRank.style.display = "none";
-    dRank.style.display = "none";
+    pRank.classList = "none";
+    sRank.classList = "none";
+    aRank.classList = "none";
+    bRank.classList = "active";
+    cRank.classList = "none";
+    dRank.classList = "none";
+    rank.classList = "none";
   } else if (testScore === 2) {
     pRank.classList = "none";
     sRank.classList = "none";
     aRank.classList = "none";
     bRank.classList = "none";
-    cRank.classList = "inline";
+    cRank.classList = "active";
     dRank.classList = "none";
-  } else if (testScore === 1){
+    rank.classList = "none";
+  } else if (testScore === 1) {
     pRank.classList = "none";
     sRank.classList = "none";
     aRank.classList = "none";
     bRank.classList = "none";
     cRank.classList = "none";
     dRank.classList = "active";
+    rank.classList = "none";
+  } else {
+    pRank.classList = "none";
+    sRank.classList = "none";
+    aRank.classList = "none";
+    bRank.classList = "none";
+    cRank.classList = "none";
+    dRank.classList = "none";
+    rank.innerHTML = ("You got 0 kills, nice job.")
   }
 }
-
-
