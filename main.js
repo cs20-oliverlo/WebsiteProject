@@ -121,6 +121,7 @@ function btnClicked() {
     bRank.classList = "none";
     cRank.classList = "none";
     dRank.classList = "none";
+    rank.classList = "active";
     rank.innerHTML = ("You got 0 kills, nice job.")
   }
 }
