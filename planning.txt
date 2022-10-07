@@ -10,7 +10,8 @@ ABOUT page:
 
 QUIZ page:
 make text not blend with background
-stylize inputs
+make laughing death screen video if people get 0% on the QUIZ
+make "Check Answers" button play the sound that plays after finishing a level (sounds like a thud)
 
 TOPIC
 ULTRAKILL: The Second Best Game (NOT FOR KIDS)
